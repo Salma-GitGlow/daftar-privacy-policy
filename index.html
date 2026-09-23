@@ -34,18 +34,22 @@
         }
 
         .logo {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 56px;
-            height: 56px;
-            border-radius: 16px;
-            background: #1B5E20;
-            color: #FFFFFF;
-            font-size: 24px;
-            font-weight: 700;
-            margin-bottom: 18px;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 56px;
+        border-radius: 16px;
+        background: #1B5E20;
+        margin: 0 auto 18px;
+        overflow: hidden;
+    }
+
+    .logo img {
+        width: 38px;
+        height: 38px;
+        object-fit: contain;
+    }
 
         .header h1 {
             color: #1B5E20;
@@ -137,7 +141,9 @@
     <main class="container">
 
         <header class="header">
-            <div class="logo">D</div>
+            <div class="logo">
+                <img src="logo.SVG" alt="Daftar Logo">
+            </div>
 
             <h1>Privacy Policy</h1>
 

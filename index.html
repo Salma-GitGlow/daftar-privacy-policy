@@ -1,55 +1,224 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy – Daftar App</title>
+
+    <title>Privacy Policy – Daftar</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif;
+            background: #F7FAF8;
+            color: #1F2937;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: min(900px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 60px 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: #1B5E20;
+            color: #FFFFFF;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+
+        .header h1 {
+            color: #1B5E20;
+            font-size: 32px;
+            line-height: 1.2;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: #6B7280;
+            font-size: 15px;
+        }
+
+        .card {
+            background: #FFFFFF;
+            border: 1px solid #E5E7EB;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(27, 94, 32, 0.05);
+        }
+
+        .intro {
+            background: #F0F7F1;
+            border-left: 4px solid #1B5E20;
+            padding: 18px 20px;
+            border-radius: 10px;
+            margin-bottom: 32px;
+            color: #374151;
+        }
+
+        .section {
+            margin-bottom: 32px;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section h2 {
+            color: #1B5E20;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        .section p {
+            margin-bottom: 12px;
+            color: #4B5563;
+        }
+
+        ul {
+            padding-left: 22px;
+            color: #4B5563;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 28px;
+            color: #9CA3AF;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 32px 0;
+            }
+
+            .card {
+                padding: 24px;
+                border-radius: 16px;
+            }
+
+            .header h1 {
+                font-size: 27px;
+            }
+
+            .section h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Privacy Policy – Daftar App</h1>
+    <main class="container">
 
-    <p>
-        At Daftar, we value your privacy. By using the app, you agree to the
-        collection and use of your data to improve your financial tracking experience.
-    </p>
+        <header class="header">
+            <div class="logo">D</div>
 
-    <h2>1. Information We Collect</h2>
-    <ul>
-        <li>Name</li>
-        <li>Email address</li>
-        <li>Income and expense data</li>
-    </ul>
+            <h1>Privacy Policy</h1>
 
-    <h2>2. How We Use Your Data</h2>
-    <p>Your data is used to:</p>
-    <ul>
-        <li>Track expenses</li>
-        <li>Generate statistics</li>
-        <li>Improve your experience</li>
-    </ul>
+            <p>Daftar App</p>
+        </header>
 
-    <h2>3. Data Security</h2>
-    <ul>
-        <li>
-            We use secure methods to protect your personal information
-            and financial records.
-        </li>
-    </ul>
+        <div class="card">
 
-    <h2>4. Data Sharing</h2>
-    <ul>
-        <li>
-            We do not sell or share your personal data with third parties.
-        </li>
-    </ul>
+            <div class="intro">
+                At Daftar, we value your privacy. By using the app, you agree
+                to the collection and use of your data to improve your
+                financial tracking experience.
+            </div>
 
-    <h2>5. User Control</h2>
-    <ul>
-        <li>
-            You can edit or delete your financial data at any time within the app.
-        </li>
-    </ul>
+            <section class="section">
+                <h2>1. Information We Collect</h2>
+
+                <p>
+                    Daftar may collect the following information when you use
+                    the application:
+                </p>
+
+                <ul>
+                    <li>Name</li>
+                    <li>Email address</li>
+                    <li>Income and expense data</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>2. How We Use Your Data</h2>
+
+                <p>
+                    Your data is used to provide and improve the core
+                    functionality of Daftar, including:
+                </p>
+
+                <ul>
+                    <li>Track expenses</li>
+                    <li>Generate financial statistics</li>
+                    <li>Improve your overall experience</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>3. Data Security</h2>
+
+                <p>
+                    We use appropriate security measures to help protect your
+                    personal information and financial records from
+                    unauthorized access, alteration, disclosure, or
+                    destruction.
+                </p>
+            </section>
+
+            <section class="section">
+                <h2>4. Data Sharing</h2>
+
+                <p>
+                    We do not sell or share your personal data with third
+                    parties.
+                </p>
+            </section>
+
+            <section class="section">
+                <h2>5. User Control</h2>
+
+                <p>
+                    You can edit or delete your financial data at any time
+                    within the app.
+                </p>
+            </section>
+
+        </div>
+
+        <footer class="footer">
+            © 2026 Daftar. All rights reserved.
+        </footer>
+
+    </main>
 
 </body>
 </html>
+```
